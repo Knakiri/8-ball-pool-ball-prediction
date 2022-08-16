@@ -24,12 +24,12 @@ struct Ball
 private:
 	struct Offsets
 	{
-		static constexpr SIZE_T Spin           = 0x8UL;
-		static constexpr SIZE_T Position       = 0x20UL;
-		static constexpr SIZE_T Velocity       = 0x30UL;
+		static constexpr SIZE_T Spin           = 0x10UL;
+		static constexpr SIZE_T Position       = 0x28UL;
+		static constexpr SIZE_T Velocity       = 0x38UL;
 		static constexpr SIZE_T Radius         = 0x50UL;
-		static constexpr SIZE_T classification = 0x7CUL;
-		static constexpr SIZE_T State          = 0x80UL; // 1 or 2 = On Table
+		static constexpr SIZE_T classification = 0x78UL;
+		static constexpr SIZE_T State          = 0x7CUL; // 1 or 2 = On Table
 	};
 };
 
