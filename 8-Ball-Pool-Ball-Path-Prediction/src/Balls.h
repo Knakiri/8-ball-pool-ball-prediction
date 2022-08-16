@@ -19,7 +19,7 @@ private:
 	{
 		static constexpr SIZE_T Count = 0x4UL;
 		static constexpr SIZE_T Entry = 0xCUL;
-		static constexpr SIZE_T Base  = 0x29CUL;
+		static constexpr SIZE_T Base  = 0x2F0UL;
 	};
 };
 
